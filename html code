@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incredible India</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script> <!-- Add the script tag with defer attribute -->
+</head>
+
+<body>
+
+  <header>
+    <h1>Incredible India</h1>
+  </header>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#mission">Our Mission</a>
+    <a href="#places">Places to Visit</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <img class="top-image" src="https://i0.wp.com/nenow.in/wp-content/uploads/2020/07/TSM-7.jpg?w=1200&ssl=1">
+
+  <section id="about">
+    <h2>About India</h2>
+    <p>India, a country in South Asia, is known for its diverse culture, rich history, and breathtaking landscapes. Explore the incredible beauty and heritage of this vibrant nation. Incredible India, a tapestry of wonders, invites you to embark on a journey beyond imagination. Here, ancient history meets cutting-edge innovation, and cultural diversity becomes a celebration of unity. <br><br>From the iconic Taj Mahal's timeless elegance to the bustling streets filled with the vibrant colors of festivals, each step unveils a unique chapter in this extraordinary story. India's landscapes, from the majestic Himalayas to the tranquil backwaters of Kerala, echo the diversity that defines this nation. A gastronomic adventure awaits, where spices dance in harmony, creating a symphony of flavors. More than a destination, India is an experience that resonates with the soul, captivating hearts with its warmth, spirituality, and a kaleidoscope of extraordinary moments.</p>
+  </section>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <ul>
+      <li>
+        <strong>Inspire Exploration:</strong> Embark on a journey that kindles the flame of curiosity and beckons the soul to explore uncharted territories. Our mission is to ignite the spirit of adventure, encouraging you to step outside your comfort zone and embrace the wonders that await.
+      </li>
+      <li>
+        <strong>Showcase Diversity:</strong> Join us in uncovering the rich tapestry of diverse landscapes, cultures, and traditions that make every destination unique. From hidden gems off the beaten path to iconic landmarks steeped in history, we aim to showcase the breathtaking diversity that defines our incredible world.
+      </li>
+      <li>
+        <strong>Encourage Responsible Travel:</strong> We are passionate advocates for responsible and sustainable travel. Beyond the allure of exploration, we believe in treading lightly, respecting local communities, and preserving the environment. Join us in embracing a journey that leaves a positive impact on the places we visit and the people we encounter.
+      </li>
+    </ul>
+  </section>
+
+  <section id="places">
+    <h2>Places to Visit</h2>
+    <p>Discover the mesmerizing places in India, from the majestic Taj Mahal to the serene backwaters of Kerala.</p>
+
+    <img src="https://images.nativeplanet.com/webp/img/2021/08/jaisalmer-1628065129.jpg" width="300" loading="lazy">
+    <img src="https://images.nativeplanet.com/webp/img/2021/08/rishikesh-1628065182.jpg" width="300" loading="lazy">
+    <img src="https://static.toiimg.com/photo/msid-83336319,width-96,height-65.cms" width="300" loading="lazy">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Taj_Mahal%2C_Agra-incredible_india.jpg" width="300" loading="lazy">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Thanjavur_Big_Temple.jpg/512px-Thanjavur_Big_Temple.jpg" width="300" loading="lazy">
+    <img src="https://indiator.com/tourist-places/wp-content/uploads/2018/11/Statue-of-Unity.jpeg" loading="lazy">
+
+    <p>For more details visit here:</p>
+    <a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html">Visit Incredible india.org</a>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/p8mXAQ6cPxg" title="Incredible India 4K - Beyond the Stereotypes: The Real India Revealed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+</body>
+
+</html>
